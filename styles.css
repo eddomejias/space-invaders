@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+#main-menu{
+    width: 100VW;
+    height: 100VH;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("resources/img/background-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.main-title{
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 1050px;
+    height: 240px;
+    border-radius: 38px;
+    border: 6px solid white;
+    text-align: center;
+    line-height: 237px;
+    font-size: 52px;
+}
+
+.buttoms-container{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.49);
+    width: 487px;
+    height: 120px;
+    border-radius: 38px;
+    border: 6px solid white;
+    color: white;
+    font-size: 52px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #417483;
+}
+
+
+
+
+
+
+
+
+#game-page{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px;
+    width: 600px;
+    height: 600px;
+
+    background-image: url(resources/img/background-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grid div{
+    width: 40px;
+    height: 40px;
+}
+
+.shooter{
+    background-color: blue;
+}
+
+.invader{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.boom{
+    background-color: red;
+}
+
+.laser{
+    background-color: orange;
+}

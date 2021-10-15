@@ -1,0 +1,8 @@
+Things to do:
+1- Inprove estetics.
+2- Implements a lelvels system.
+3- Implements a game over and win game screen with the hability to restart. 
+4- Implements a score save (?)
+5- Implement a dificulty switch.
+6- Implement a diferent kind of lasers. 
+7- Implement a starship selector (estetic option only). 
